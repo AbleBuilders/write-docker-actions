@@ -11,4 +11,6 @@ jobs:
       - name: "hello-action"
         uses: ./.github/actions/hello-world
         with:
-          firstGreeting: "Learning Lab User"
+          firstGreeting: "First Greeting of the day is just 'Hi.'"
+          secondGreeding : "I wonder if it makes to add another greeting but I will go for it. It is 'How are you feeling today?' "
+          thirdGreeting: "Now, third greeting is entirely optional and very special. It shows rather actual interest, not the superficial one. 'I hope you have a good day ahead.'"
